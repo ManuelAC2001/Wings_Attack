@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Wings_Attack" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Wings_Attack" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/GLUT/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../Wings_Attack" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Wings_Attack" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/GLUT/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../Wings_Attack" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/GLUT/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/GLUT/lib" />
+		</Linker>
+		<Unit filename="AvionG.cpp" />
+		<Unit filename="AvionG.h" />
+		<Unit filename="AvionL.cpp" />
+		<Unit filename="AvionL.h" />
+		<Unit filename="BalaG.cpp" />
+		<Unit filename="BalaG.h" />
+		<Unit filename="CorazonG.cpp" />
+		<Unit filename="CorazonG.h" />
+		<Unit filename="NubeG.cpp" />
+		<Unit filename="NubeG.h" />
+		<Unit filename="NubeL.cpp" />
+		<Unit filename="NubeL.h" />
+		<Unit filename="PajaroG.cpp" />
+		<Unit filename="PajaroG.h" />
+		<Unit filename="PajaroL.cpp" />
+		<Unit filename="PajaroL.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

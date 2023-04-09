@@ -1,0 +1,34 @@
+#ifndef AVIONL_H
+#define AVIONL_H
+
+#include <cstdlib>
+#include <gl\glut.h>
+
+//Efectos graficos
+#include <AvionG.h>
+#include <BalaG.h>
+#include <CorazonG.h>
+
+
+
+
+
+class AvionL{
+    public:
+        AvionL();
+        AvionG avionG;
+        BalaG *balas[4];
+        int it = -1;
+        int numBalas = 4;
+        int numeroVidas = 3;
+        CorazonG vidas[3];
+        bool estaVivo = true;
+        void disparar();
+        void mover( int key, int PosX, int PosY );
+        void keyboard(unsigned char key, int x, int y);
+        void mostrarVidas();
+        //void matarPajaros(PajaroL &a);
+
+};
+
+#endif // AVIONL_H

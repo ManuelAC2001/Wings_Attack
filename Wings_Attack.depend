@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1638340614 source:c:\proggrafic\wings_attack\aviong.cpp
+	"AvionG.h"
+	<windows.h>
+	<gl\glut.h>
+
+1638211245 c:\proggrafic\wings_attack\aviong.h
+
+1639015574 source:c:\proggrafic\wings_attack\main.cpp
+	<windows.h>
+	<time.h>
+	<stdio.h>
+	<PajaroL.h>
+	<AvionL.h>
+	<NubeL.h>
+
+976692172 c:\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1638341237 source:c:\proggrafic\wings_attack\nubeg.cpp
+	"NubeG.h"
+	<windows.h>
+	<gl\glut.h>
+
+1638342027 c:\proggrafic\wings_attack\nubeg.h
+
+1637529287 c:\proggrafic\wings_attack\balag.h
+
+1639016404 source:c:\proggrafic\wings_attack\balag.cpp
+	"BalaG.h"
+	<windows.h>
+	<gl\glut.h>
+
+1639018823 source:c:\proggrafic\wings_attack\nubel.cpp
+	"NubeL.h"
+	<NubeG.h>
+	<stdlib.h>
+
+1638341442 c:\proggrafic\wings_attack\nubel.h
+	<NubeG.h>
+
+1639018241 source:c:\proggrafic\wings_attack\avionl.cpp
+	"AvionL.h"
+	<PajaroL.h>
+	<stdlib.h>
+
+1639017287 c:\proggrafic\wings_attack\avionl.h
+	<iostream>
+	<cstdlib>
+	<gl\glut.h>
+	<iostream>
+	<vector>
+	<AvionG.h>
+	<BalaG.h>
+	<CorazonG.h>
+
+1639016706 source:c:\proggrafic\wings_attack\pajarog.cpp
+	"PajaroG.h"
+	<windows.h>
+	<gl\glut.h>
+
+1637864668 c:\proggrafic\wings_attack\pajarog.h
+
+1638939741 source:c:\proggrafic\wings_attack\pajarol.cpp
+	"PajaroL.h"
+	<stdlib.h>
+
+1639019044 c:\proggrafic\wings_attack\pajarol.h
+	<iostream>
+	<vector>
+	<AvionL.h>
+	<PajaroG.h>
+
+1638341046 source:c:\proggrafic\wings_attack\corazong.cpp
+	"CorazonG.h"
+	<windows.h>
+	<gl\glut.h>
+
+1638210911 c:\proggrafic\wings_attack\corazong.h
+
+1638318764 c:\proggrafic\wings_attack\pajarol.cpp
+	"PajaroL.h"
+	<stdlib.h>
+
